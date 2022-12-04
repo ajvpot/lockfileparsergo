@@ -1,0 +1,35 @@
+name: Build
+
+on:
+  pull_request:
+    paths:
+      - '**.go'
+      - go.mod
+      - go.sum
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        go:
+          - '1.19'
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+        with:
+          go-version: ${{ matrix.go }}
+          cache: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: yarn
+          cache-dependency-path: 'js/yarn.lock'
+      - run: go generate ./...
+      - run: git diff
+      - run: go build ./...

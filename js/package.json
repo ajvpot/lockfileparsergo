@@ -1,0 +1,20 @@
+{
+  "name": "js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snyk-nodejs-lockfile-parser": "^1.44.0",
+    "memfs": "^3.4.12",
+    "node-stdlib-browser": "^1.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.13",
+    "prettier": "^2.7.1"
+  }
+}
