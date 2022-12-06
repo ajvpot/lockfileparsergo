@@ -9,9 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "snyk-nodejs-lockfile-parser": "^1.44.0",
+    "@snyk/cocoapods-lockfile-parser": "^3.8.0",
+    "@snyk/composer-lockfile-parser": "^1.4.1",
     "memfs": "^3.4.12",
-    "node-stdlib-browser": "^1.2.0"
+    "node-stdlib-browser": "^1.2.0",
+    "snyk-nodejs-lockfile-parser": "^1.44.0",
+    "snyk-poetry-lockfile-parser": "^1.1.7"
   },
   "devDependencies": {
     "esbuild": "^0.15.13",

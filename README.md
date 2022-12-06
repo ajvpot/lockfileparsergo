@@ -7,6 +7,6 @@ interoperable with golang. It uses [v8go](https://github.com/rogchap/v8go) to ex
 
 Parsers are available (checked) or planned for:
 * [x] JavaScript ([snyk-nodejs-lockfile-parser](https://github.com/snyk/nodejs-lockfile-parser))
-* [ ] Swift ([snyk-cocoapods-lockfile-parser](https://github.com/snyk/cocoapods-lockfile-parser))
+* [ ] Swift ([@snyk/cocoapods-lockfile-parser](https://github.com/snyk/cocoapods-lockfile-parser))
 * [ ] Python ([snyk-poetry-lockfile-parser](https://github.com/snyk/poetry-lockfile-parser))
-* [ ] PHP ([snyk-composer-lockfile-parser](https://github.com/snyk/composer-lockfile-parser))
+* [ ] PHP ([@snyk/composer-lockfile-parser](https://github.com/snyk/composer-lockfile-parser))
