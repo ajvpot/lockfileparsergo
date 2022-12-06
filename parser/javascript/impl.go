@@ -57,7 +57,7 @@ func loadFile(ctx *v8go.Context, name, data string) error {
 		return err
 	}
 
-	_, err = ctx.RunScript(fmt.Sprintf("module.exports.loadFile(%s, %s);", string(fn), string(dataJ)), `loader.js`)
+	_, err = ctx.RunScript(fmt.Sprintf("module.exports.fs.writeFileSync(%s, %s);", string(fn), string(dataJ)), `loader.js`)
 	if err != nil {
 		return err
 	}
