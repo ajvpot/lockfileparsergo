@@ -6,6 +6,7 @@ import (
 
 	"github.com/ajvpot/lockfileparsergo/parser"
 	"github.com/ajvpot/lockfileparsergo/pkg/reader"
+	"github.com/ajvpot/lockfileparsergo/pkg/runtime"
 )
 
 // Parser parses JavaScript project files.
@@ -20,7 +21,7 @@ type jsDepTreeParser struct {
 // NewParser creates a new javascript lockfile parser
 func NewParser() Parser {
 	return &jsDepTreeParser{v8Pool: syncpool.New(func() *v8go.Context {
-		ctx, err := newV8Context()
+		ctx, err := runtime.NewV8Context()
 		if err != nil {
 			return nil
 		}
@@ -33,11 +34,11 @@ func (j *jsDepTreeParser) BuildDepTree(manifest, lockfile reader.NamedReadCloser
 	ctx := j.v8Pool.Get()
 	defer j.v8Pool.Put(ctx)
 
-	err := loadFileFromNamedReader(ctx, manifest)
+	err := runtime.LoadFileFromNamedReader(ctx, manifest)
 	if err != nil {
 		return nil, err
 	}
-	err = loadFileFromNamedReader(ctx, lockfile)
+	err = runtime.LoadFileFromNamedReader(ctx, lockfile)
 	if err != nil {
 		return nil, err
 	}
