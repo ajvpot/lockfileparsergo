@@ -41,7 +41,7 @@ jobs:
             Update generated files
           labels: |
             automated
-          assignees: ${{ github.actor }}
+          assignees: ${{ !contains(github.actor, '[bot]') && github.actor }}
           draft: false
       - name: Fail if there were changes
         if: ${{ steps.cpr.outputs.pull-request-number }}
