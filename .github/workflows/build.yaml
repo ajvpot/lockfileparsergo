@@ -30,11 +30,8 @@ jobs:
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
-        if: ${{ github.event.issue.pull_request }}
         with:
           commit-message: Update generated files
-          committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           base: ${{ github.head_ref }}
           branch: regenerate/${{ github.head_ref }}
           delete-branch: true
@@ -52,5 +49,6 @@ jobs:
           echo "Generated files don't match, pull request created:"
           echo "${{ steps.cpr.outputs.pull-request-url }}"
           exit 1
+      - run: git diff --exit-code
       - run: go test ./...
       - run: go build ./...
