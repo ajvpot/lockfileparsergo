@@ -35,13 +35,12 @@ jobs:
           base: ${{ github.head_ref }}
           branch: regenerate/${{ github.head_ref }}
           delete-branch: true
-          title: "Regenerate files for ${{ github.ref_name }}"
+          title: "Regenerate files for ${{ github.head_ref }}"
           body: |
             Update generated files
           labels: |
             automated
           assignees: ${{ github.actor }}
-          reviewers: ${{ github.actor }}
           draft: false
       - name: Fail if there were changes
         if: ${{ steps.cpr.outputs.pull-request-number }}
@@ -49,6 +48,5 @@ jobs:
           echo "Generated files don't match, pull request created:"
           echo "${{ steps.cpr.outputs.pull-request-url }}"
           exit 1
-      - run: git diff --exit-code
       - run: go test ./...
       - run: go build ./...
