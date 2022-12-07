@@ -29,6 +29,7 @@ jobs:
       - run: go generate ./...
       - name: Create Pull Request
         id: cpr
+        if: github.event_name == 'pull_request'
         uses: peter-evans/create-pull-request@v4
         with:
           commit-message: Update generated files
