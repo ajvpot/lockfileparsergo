@@ -10,3 +10,6 @@ Parsers are available (checked) or planned for:
 * [ ] Swift ([@snyk/cocoapods-lockfile-parser](https://github.com/snyk/cocoapods-lockfile-parser))
 * [ ] Python ([snyk-poetry-lockfile-parser](https://github.com/snyk/poetry-lockfile-parser))
 * [ ] PHP ([@snyk/composer-lockfile-parser](https://github.com/snyk/composer-lockfile-parser))
+
+TODO:
+* [ ] Pre-compile the js bundle instead of executing it in each isolate.
