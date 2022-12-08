@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.github.ajvpot.lockfileparsergo;
+
+option go_package = ".;lockfileparsergo";
+option java_multiple_files = true;
+option java_package = "com.github.ajvpot.lockfileparsergo";
+option java_outer_classname = "LockfileParserProto";
+
+message DepTree {
+  string type = 1;
+  string packageFormatVersion = 2;
+  map<string, string> meta = 3;
+  DepTreeDep root = 4;
+}
+
+message DepTreeDep {
+  string name = 1;
+  string version = 2;
+  repeated DepTreeDep dependencies = 3;
+  map<string, string> meta = 4;
+}
