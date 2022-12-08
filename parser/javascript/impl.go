@@ -18,7 +18,7 @@ func mustMarshal(v any) []byte {
 }
 
 func buildDepTree(ctx *v8go.Context, manifestPath, lockfilePath string) (*parser.PkgTree, error) {
-	val, err := ctx.RunScript(fmt.Sprintf(`module.exports.buildDepTreeFromFiles("./", %s, %s);`, mustMarshal(manifestPath), mustMarshal(lockfilePath)), `invoke.js`)
+	val, err := ctx.RunScript(fmt.Sprintf(`module.exports.buildJavascriptDepTreeFromFiles("./", %s, %s);`, mustMarshal(manifestPath), mustMarshal(lockfilePath)), `invoke.js`)
 	if err != nil {
 		return nil, err
 	}
