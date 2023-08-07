@@ -1217,9 +1217,9 @@ json-file-plus@^3.3.1:
     safer-buffer "^2.0.2"
 
 json-joy@^9.2.0:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/json-joy/-/json-joy-9.3.0.tgz#3895579591b96416c7c81ea3a590068b1188e6a4"
-  integrity sha512-ZQiyMcbcfqki5Bsk0kWfne/Ixl4Q6cLBzCd3VE/TSp7jhns/WDBrIMTuyzDfwmLxuFtQdojiLSLX8MxTyK23QA==
+  version "9.5.1"
+  resolved "https://registry.yarnpkg.com/json-joy/-/json-joy-9.5.1.tgz#056683b4db4b0e279451a563a756b70b9fd97fa3"
+  integrity sha512-XMSpdxaiWUZlc+CAUbPS3G2MZbGxm6clFatqjta/DLrq5V4Y5JU4cx7Qvy7l+XTVPvmRWaYuzzAuCf9uUc40IA==
   dependencies:
     arg "^5.0.2"
     hyperdyperid "^1.2.0"
@@ -1380,9 +1380,9 @@ md5.js@^1.3.4:
     safe-buffer "^5.1.2"
 
 memfs@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/memfs/-/memfs-4.2.0.tgz#b30d4b70626b1015f4c35548eab34087a903a5f5"
-  integrity sha512-V5/xE+zl6+soWxlBjiVTQSkfXybTwhEBj2I8sK9LaS5lcZsTuhRftakrcRpDY7Ycac2NTK/VzEtpKMp+gpymrQ==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/memfs/-/memfs-4.2.1.tgz#8c5a48707a460dde8e734b15e405e8377db2bec5"
+  integrity sha512-CINEB6cNAAhLUfRGrB4lj2Pj47ygerEmw3jxPb6R1gkD6Jfp484gJLteQ6MzqIjGWtFWuVzDl+KN7HiipMuKSw==
   dependencies:
     json-joy "^9.2.0"
     thingies "^1.11.1"
@@ -1975,9 +1975,9 @@ tar-stream@^2.0.1:
     readable-stream "^3.1.1"
 
 thingies@^1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/thingies/-/thingies-1.11.1.tgz#47a648e2b42c3bb011e493e0c99df20a2758c25d"
-  integrity sha512-SXWTuQA6TFjpfV4xiwPs4FkHashZShR/Hugosrm9sRMm63fAdgZaWKixt5YvuP6VwDaAROcDwf9cFeuw1DeekA==
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/thingies/-/thingies-1.12.0.tgz#a815c224482d607aa70f563d3cbb351a338e4710"
+  integrity sha512-AiGqfYC1jLmJagbzQGuoZRM48JPsr9yB734a7K6wzr34NMhjUPrWSQrkF7ZBybf3yCerCL2Gcr02kMv4NmaZfA==
 
 timers-browserify@^2.0.4:
   version "2.0.12"
