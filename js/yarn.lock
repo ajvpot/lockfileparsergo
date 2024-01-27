@@ -151,9 +151,9 @@
   integrity sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==
 
 "@snyk/cli-interface@^2.9.2":
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/@snyk/cli-interface/-/cli-interface-2.12.0.tgz#31d5d743c33564407de3d274466c7f655a4519f8"
-  integrity sha512-doY+2WR29YmQgzb5eMeQsR6c6OlvHB+K4r3/+O/gZUkwDle6atvnMg1XMElF01lZKxxJwrILf7vksEKyrbG0nw==
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@snyk/cli-interface/-/cli-interface-2.13.0.tgz#7cd618298f52ae24ece1cdb5ef1bebc175167d2f"
+  integrity sha512-UfX3WKoonU0mS4BnCS7wxwZ1uoMOkeufIBT8wd1J7GExQ5r4qy9ai1rMXOlJgDVIMtYJNwmgMf2Ex8l3ueqRwQ==
   dependencies:
     "@types/graphlib" "^2"
 
@@ -178,9 +178,9 @@
     lodash.isempty "^4.4.0"
 
 "@snyk/dep-graph@^2.3.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@snyk/dep-graph/-/dep-graph-2.7.0.tgz#67a682807673fb1544bfc610bbdcd8ac0c74346d"
-  integrity sha512-sdT56r9RFHL80HX0NqpIJOjhNNksHplnMwwrfRB24opdLa0/k3GilPcWreKJgs25A2610JVSBY9s6AfrNr1ReA==
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@snyk/dep-graph/-/dep-graph-2.8.0.tgz#9d68ef1445efcff7ebafc6ff073010bd65240f27"
+  integrity sha512-rx1fFfVkRqNAjRWpwIPj3A9LqYuTSEpB+LnSzI0vKj65IF8gSXDPhgCN9EUXwlOTobbDN8sHbbsHVYTuzWaH6A==
   dependencies:
     event-loop-spinner "^2.1.0"
     lodash.clone "^4.5.0"
@@ -201,6 +201,14 @@
     packageurl-js "^1.0.0"
     semver "^7.0.0"
     tslib "^2"
+
+"@snyk/error-catalog-nodejs-public@^4.0.1":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@snyk/error-catalog-nodejs-public/-/error-catalog-nodejs-public-4.0.2.tgz#4d7585f9c678d9693e504aa78761f2f967a1868f"
+  integrity sha512-BdMSPXr3bZCm/dWdXCDMKAdB+0VWGhFwnV1WuG0ej1yu9C2GTYAMuH0ZVn3vFLXO93x/3UKSl9uL5g2/j5XEAA==
+  dependencies:
+    tslib "^2.6.2"
+    uuid "^9.0.0"
 
 "@snyk/graphlib@2.1.9-patch.3":
   version "2.1.9-patch.3"
@@ -246,9 +254,9 @@
   integrity sha512-H90aoynNhhkQP6DRweEjJp5vfUVdIj7tdPLsu7pq89vODD/lcugKfZOsfgwpvM6XUewEp2N5dCg1Uf3Qe55Dcg==
 
 "@types/graphlib@^2":
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/@types/graphlib/-/graphlib-2.1.8.tgz#9edd607e4b863a33b8b78cb08385c0be6896008a"
-  integrity sha512-8nbbyD3zABRA9ePoBgAl2ym8cIwKQXTfv1gaIRTdY99yEOCaHfmjBeRp+BIemS8NtOqoWK7mfzWxjNrxLK3T5w==
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/@types/graphlib/-/graphlib-2.1.9.tgz#f04eb400a7279a933bcbc5ade3d26164c0e7c723"
+  integrity sha512-Dw4pES7GQBvJ8NNw2UuX7r12qk1Uj1Sa6/mw4zRtaYKxbsmf01BqrrgMR+9dD+xJ+sKVHXrnevk6/KZuJwjIBQ==
 
 "@types/http-cache-semantics@*":
   version "4.0.1"
@@ -1570,9 +1578,9 @@ p-try@^2.0.0:
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
 packageurl-js@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/packageurl-js/-/packageurl-js-1.0.2.tgz#c568a569848c66be8f2b467ac41b0f1427672b00"
-  integrity sha512-fWC4ZPxo80qlh3xN5FxfIoQD3phVY4+EyzTIqyksjhKNDmaicdpxSvkWwIrYTtv9C1/RcUN6pxaTwGmj2NzS6A==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/packageurl-js/-/packageurl-js-1.1.1.tgz#8047a09d28265cb9339299a2de9fd304385abefd"
+  integrity sha512-juW4p0J23BvvMj0I9/ORe/Y7TFsNNrEjoZ/h3ToPfU0dvnGXUm6vHtcAINf2Scgv5EqQW7ngTZnkTfgFBPeXNw==
 
 pako@~1.0.5:
   version "1.0.11"
@@ -1815,9 +1823,9 @@ safer-buffer@^2.0.2, safer-buffer@^2.1.0:
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
 semver@^7.0.0:
-  version "7.5.3"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.3.tgz#161ce8c2c6b4b3bdca6caadc9fa3317a4c4fe88e"
-  integrity sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
+  integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
   dependencies:
     lru-cache "^6.0.0"
 
@@ -1890,13 +1898,14 @@ snyk-nodejs-lockfile-parser@^1.44.0:
     uuid "^8.3.0"
 
 snyk-poetry-lockfile-parser@^1.1.7:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/snyk-poetry-lockfile-parser/-/snyk-poetry-lockfile-parser-1.3.0.tgz#424e400643dfa8523921521c26d9f06d9ecbc545"
-  integrity sha512-KYv0oYcEsEdSij75oZP5MA31JcZmutBB9v3r5ygpGjhqrYg7sENejgybGFxcCpvjYVxxDYzU5Vbv0OsNR1FR+w==
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/snyk-poetry-lockfile-parser/-/snyk-poetry-lockfile-parser-1.4.2.tgz#6a0aabfb9b61e41fde3235f218717d0193e17ce3"
+  integrity sha512-EIUWYmw4sNnUUEQZMBXMUEXwk5sk4KzXMbrUtcoQLaha6XLqk1qneRpCDtGdbf0qlXHHs9VxfajxBZZcuq7vIA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     "@snyk/cli-interface" "^2.9.2"
     "@snyk/dep-graph" "^2.3.0"
+    "@snyk/error-catalog-nodejs-public" "^4.0.1"
     debug "^4.2.0"
     tslib "^2.0.0"
 
@@ -2003,10 +2012,10 @@ tslib@^1.10.0, tslib@^1.13.0, tslib@^1.9.3:
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2, tslib@^2.0.0, tslib@^2.1.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
-  integrity sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==
+tslib@^2, tslib@^2.0.0, tslib@^2.1.0, tslib@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
+  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
 tty-browserify@0.0.1:
   version "0.0.1"
@@ -2046,6 +2055,11 @@ uuid@^8.3.0:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^9.0.0:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 vm-browserify@^1.0.1:
   version "1.1.2"
