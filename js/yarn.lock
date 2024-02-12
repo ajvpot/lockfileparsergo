@@ -1230,13 +1230,14 @@ json-file-plus@^3.3.1:
     promiseback "^2.0.2"
     safer-buffer "^2.0.2"
 
-json-joy@^9.2.0:
-  version "9.9.1"
-  resolved "https://registry.yarnpkg.com/json-joy/-/json-joy-9.9.1.tgz#add8f8bdf4f7066894f5ec4817a5a43066a3757f"
-  integrity sha512-/d7th2nbQRBQ/nqTkBe6KjjvDciSwn9UICmndwk3Ed/Bk9AqkTRm4PnLVfXG4DKbT0rEY0nKnwE7NqZlqKE6kg==
+json-joy@^11.0.0:
+  version "11.28.0"
+  resolved "https://registry.yarnpkg.com/json-joy/-/json-joy-11.28.0.tgz#59e4ba7cf91556e49caaf914047dca8bc95c1491"
+  integrity sha512-WTq2tYD2r+0rUFId4gtUjwejV20pArh4q2WRJKxJdwLlPFHyW94HwwB2vUr5lUJTVkehhhWEVLwOUI0MSacNIw==
   dependencies:
     arg "^5.0.2"
     hyperdyperid "^1.2.0"
+    thingies "^1.14.1"
 
 keyv@^4.0.0:
   version "4.5.2"
@@ -1394,11 +1395,11 @@ md5.js@^1.3.4:
     safe-buffer "^5.1.2"
 
 memfs@^4.0.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/memfs/-/memfs-4.6.0.tgz#e812d438f73482a7110420d13d381c730b9a4de5"
-  integrity sha512-I6mhA1//KEZfKRQT9LujyW6lRbX7RkC24xKododIDO3AGShcaFAMKElv1yFGWX8fD4UaSiwasr3NeQ5TdtHY1A==
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/memfs/-/memfs-4.6.1.tgz#4abcb9e9f6b5953fc6421c010aaed3801f4ae411"
+  integrity sha512-EBR9cb0t/PJjPI7fVx2m9V7iQH8joEgIsrfWW+qam304dK/FvpcTqKdKu3sbcbMmCZMbMwPi76PREoFaGR0Bmw==
   dependencies:
-    json-joy "^9.2.0"
+    json-joy "^11.0.0"
     thingies "^1.11.1"
 
 merge2@^1.3.0, merge2@^1.4.1:
@@ -1989,7 +1990,7 @@ tar-stream@^2.0.1:
     inherits "^2.0.3"
     readable-stream "^3.1.1"
 
-thingies@^1.11.1:
+thingies@^1.11.1, thingies@^1.14.1:
   version "1.16.0"
   resolved "https://registry.yarnpkg.com/thingies/-/thingies-1.16.0.tgz#968cde87fbf0fdd69a1a3a8e9678324f634e5053"
   integrity sha512-J23AVs11hSQxuJxvfQyMIaS9z1QpDxOCvMkL3ZxZl8/jmkgmnNGWrlyNxVz6Jbh0U6DuGmHqq6f7zUROfg/ncg==
