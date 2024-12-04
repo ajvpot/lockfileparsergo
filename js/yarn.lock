@@ -176,9 +176,9 @@
   integrity sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==
 
 "@snyk/cli-interface@^2.9.2":
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/@snyk/cli-interface/-/cli-interface-2.13.0.tgz#7cd618298f52ae24ece1cdb5ef1bebc175167d2f"
-  integrity sha512-UfX3WKoonU0mS4BnCS7wxwZ1uoMOkeufIBT8wd1J7GExQ5r4qy9ai1rMXOlJgDVIMtYJNwmgMf2Ex8l3ueqRwQ==
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/@snyk/cli-interface/-/cli-interface-2.14.0.tgz#f2ce2660d07808c2a82500d4fa31ea6404e9069c"
+  integrity sha512-5DhN0TQ+68usxpoCWetHbkDhDPy1Hbzu3+pwcnQiuCctDM3ZP1gZRC5cUZv6aKjzcKX6mrH5beVWrO3qHv3YgQ==
   dependencies:
     "@types/graphlib" "^2"
 
@@ -203,9 +203,9 @@
     lodash.isempty "^4.4.0"
 
 "@snyk/dep-graph@^2.3.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@snyk/dep-graph/-/dep-graph-2.8.0.tgz#9d68ef1445efcff7ebafc6ff073010bd65240f27"
-  integrity sha512-rx1fFfVkRqNAjRWpwIPj3A9LqYuTSEpB+LnSzI0vKj65IF8gSXDPhgCN9EUXwlOTobbDN8sHbbsHVYTuzWaH6A==
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@snyk/dep-graph/-/dep-graph-2.9.0.tgz#8322578e398e0f035d7ef6c6785d194372bccde5"
+  integrity sha512-K+0ehJ1ld91LFz88FJEdYJf00f1UnhAacvxe2sm/h9fIXmvd08Yl6o89RcIb5y2H+vBUS4qTxs9VKP+MIRnmDA==
   dependencies:
     event-loop-spinner "^2.1.0"
     lodash.clone "^4.5.0"
@@ -223,14 +223,14 @@
     lodash.union "^4.6.0"
     lodash.values "^4.3.0"
     object-hash "^3.0.0"
-    packageurl-js "^1.0.0"
+    packageurl-js "1.2.0"
     semver "^7.0.0"
     tslib "^2"
 
 "@snyk/error-catalog-nodejs-public@^4.0.1":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@snyk/error-catalog-nodejs-public/-/error-catalog-nodejs-public-4.0.2.tgz#4d7585f9c678d9693e504aa78761f2f967a1868f"
-  integrity sha512-BdMSPXr3bZCm/dWdXCDMKAdB+0VWGhFwnV1WuG0ej1yu9C2GTYAMuH0ZVn3vFLXO93x/3UKSl9uL5g2/j5XEAA==
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@snyk/error-catalog-nodejs-public/-/error-catalog-nodejs-public-4.0.4.tgz#b8564613f30fc93bab343e3bf0dcfb4830ff74a3"
+  integrity sha512-M+t/MNfR/qr/Rdxc3Kl2p26mIx0YdcM22CAZfNsCuldl1DIZQma8jc7zmm14AwhwmdoU6TE7mzzO33KINgB8LA==
   dependencies:
     tslib "^2.6.2"
     uuid "^9.0.0"
@@ -279,9 +279,9 @@
   integrity sha512-H90aoynNhhkQP6DRweEjJp5vfUVdIj7tdPLsu7pq89vODD/lcugKfZOsfgwpvM6XUewEp2N5dCg1Uf3Qe55Dcg==
 
 "@types/graphlib@^2":
-  version "2.1.9"
-  resolved "https://registry.yarnpkg.com/@types/graphlib/-/graphlib-2.1.9.tgz#f04eb400a7279a933bcbc5ade3d26164c0e7c723"
-  integrity sha512-Dw4pES7GQBvJ8NNw2UuX7r12qk1Uj1Sa6/mw4zRtaYKxbsmf01BqrrgMR+9dD+xJ+sKVHXrnevk6/KZuJwjIBQ==
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/@types/graphlib/-/graphlib-2.1.12.tgz#089d1218bafe2277c98b12597abb24c3b73965aa"
+  integrity sha512-abRfQWMphT2qlXwppQa+CTCtUz/GqxBeozQcMjnOFD/WOKD6sRgxkfG8vq1yagV03447BBzCYhuJ0wiNb+/r+Q==
 
 "@types/http-cache-semantics@*":
   version "4.0.1"
@@ -763,12 +763,19 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-debug@^4.1.1, debug@^4.2.0:
+debug@^4.1.1:
   version "4.3.4"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
   dependencies:
     ms "2.1.2"
+
+debug@^4.2.0:
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.7.tgz#87945b4151a011d76d95a198d7111c865c360a52"
+  integrity sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==
+  dependencies:
+    ms "^2.1.3"
 
 decompress-response@^6.0.0:
   version "6.0.0"
@@ -898,12 +905,19 @@ esprima@^4.0.0:
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-event-loop-spinner@^2.0.0, event-loop-spinner@^2.1.0:
+event-loop-spinner@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/event-loop-spinner/-/event-loop-spinner-2.2.0.tgz#5b9bdf1759a5d9600576260ae770446a1a16c9b0"
   integrity sha512-KB44sV4Mv7uLIkJHJ5qhiZe5um6th2g57nHQL/uqnPHKP2IswoTRWUteEXTJQL4gW++1zqWUni+H2hGkP51c9w==
   dependencies:
     tslib "^2.1.0"
+
+event-loop-spinner@^2.1.0:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/event-loop-spinner/-/event-loop-spinner-2.3.2.tgz#cbf92985dccf8ce52c8905b33b8ac909c33f5605"
+  integrity sha512-O078Lkxi/yZEPPifcizDOGUeK1OFOlPC6sfCCrx10odvqX3tEi9XLaIRt9cIl9TBFcPZzuMaXbJ0b+T6D2Tnjg==
+  dependencies:
+    tslib "^2.6.3"
 
 events@^3.0.0:
   version "3.3.0"
@@ -1468,6 +1482,11 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
+ms@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
+  integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
+
 node-stdlib-browser@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/node-stdlib-browser/-/node-stdlib-browser-1.2.0.tgz#5ddcfdf4063b88fb282979a1aa6ddab9728d5e4c"
@@ -1592,10 +1611,10 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-packageurl-js@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/packageurl-js/-/packageurl-js-1.1.1.tgz#8047a09d28265cb9339299a2de9fd304385abefd"
-  integrity sha512-juW4p0J23BvvMj0I9/ORe/Y7TFsNNrEjoZ/h3ToPfU0dvnGXUm6vHtcAINf2Scgv5EqQW7ngTZnkTfgFBPeXNw==
+packageurl-js@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/packageurl-js/-/packageurl-js-1.2.0.tgz#a217178eba4d662207a5cce8efb35d41df8c3b8d"
+  integrity sha512-JFoZnz1maKB0hTjn0YrmqRLgiU825SkbA370oe9ERcsKsj1EcBpe+CDo1EK9mrHc+18Hi5NmZbmXFQtP7YZEbw==
 
 pako@~1.0.5:
   version "1.0.11"
@@ -1838,11 +1857,9 @@ safer-buffer@^2.0.2, safer-buffer@^2.1.0:
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
 semver@^7.0.0:
-  version "7.5.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
-  integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
-  dependencies:
-    lru-cache "^6.0.0"
+  version "7.6.3"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.3.tgz#980f7b5550bc175fb4dc09403085627f9eb33143"
+  integrity sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==
 
 semver@^7.1.2, semver@^7.3.5:
   version "7.3.8"
@@ -1913,9 +1930,9 @@ snyk-nodejs-lockfile-parser@^1.44.0:
     uuid "^8.3.0"
 
 snyk-poetry-lockfile-parser@^1.1.7:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/snyk-poetry-lockfile-parser/-/snyk-poetry-lockfile-parser-1.4.2.tgz#6a0aabfb9b61e41fde3235f218717d0193e17ce3"
-  integrity sha512-EIUWYmw4sNnUUEQZMBXMUEXwk5sk4KzXMbrUtcoQLaha6XLqk1qneRpCDtGdbf0qlXHHs9VxfajxBZZcuq7vIA==
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/snyk-poetry-lockfile-parser/-/snyk-poetry-lockfile-parser-1.5.0.tgz#bbf0c0e1b81d6b99f55a84f1ce7a5aece52ac761"
+  integrity sha512-dtA4xeJEmMXGPzRTrl1VLxaT7Lk33WIdvn5kzayxmCvQL3z4fRf7ejXm5wGpp367NsyKyHnsiBZe+EHV+zoW2w==
   dependencies:
     "@iarna/toml" "^2.2.5"
     "@snyk/cli-interface" "^2.9.2"
@@ -2032,10 +2049,10 @@ tslib@^1.10.0, tslib@^1.13.0, tslib@^1.9.3:
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2, tslib@^2.0.0, tslib@^2.1.0, tslib@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
-  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
+tslib@^2, tslib@^2.0.0, tslib@^2.1.0, tslib@^2.6.2, tslib@^2.6.3:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tty-browserify@0.0.1:
   version "0.0.1"
