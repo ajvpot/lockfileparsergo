@@ -17,7 +17,7 @@
     "snyk-poetry-lockfile-parser": "^1.1.7"
   },
   "devDependencies": {
-    "esbuild": "^0.21.0",
+    "esbuild": "^0.27.0",
     "prettier": "^3.0.0"
   }
 }
