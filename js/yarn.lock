@@ -193,9 +193,9 @@
     tslib "^1.10.0"
 
 "@snyk/composer-lockfile-parser@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@snyk/composer-lockfile-parser/-/composer-lockfile-parser-1.4.1.tgz#2f7c93ad367520322b16d9490a208fec08445e0e"
-  integrity sha512-wNANv235j95NFsQuODIXCiQZ9kcyg9fz92Kg1zoGvaP3kN/ma7fgCnvQL/dyml6iouQJR5aZovjhrrfEFoKtiQ==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@snyk/composer-lockfile-parser/-/composer-lockfile-parser-1.5.1.tgz#82e6fc7315a4885b48bc128f865badc1727b2b9c"
+  integrity sha512-+MtLnsFM/DbvPHhu5557NSvc3B5lfolTwL0nZI4IbYAUTsrbaKZgiYkSlKqVmEo+SNgQFbVoAarlWrk61eqgvQ==
   dependencies:
     lodash.findkey "^4.6.0"
     lodash.get "^4.4.2"
